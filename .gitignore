@@ -35,3 +35,6 @@ app/vendor/
 
 # Working security list — not for the public repo
 SECURITY-FINDINGS.md
+
+# Local screenshot/demo captures — never published
+docs/screenshots/

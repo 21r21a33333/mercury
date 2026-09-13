@@ -45,7 +45,7 @@ USDC on Sepolia ──► Circle Gateway (one unified balance)
 | `app/` | Expo / React Native wallet. Holds the keys and does all signing. 422 tests. |
 | `hub/` | **Holds a funded key.** Gateway mint relayer, ENS name sponsor, and a proxy for The Graph. See `hub/README.md`. |
 | `contracts/` | `MercuryNameRegistry.sol` — the ENS subname registry. |
-| `subgraph/` | The Graph: USDC/EURC transfers and ERC-5564 announcements on Arc. |
+| `subgraph/` | The Graph: USDC and EURC transfers on Arc. |
 | `specs/` | Per-service detail. |
 
 `shared/` exists but nothing imports it; the app and the hub each keep their own
